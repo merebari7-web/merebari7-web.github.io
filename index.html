@@ -1,0 +1,3400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b2d20">
+<meta name="color-scheme" content="light">
+
+<title>Bright-Zorbari Farm | Premium Fresh Eggs Nigeria</title>
+<meta name="description" content="Shop fresh Jumbo, Medium and Small eggs from Bright-Zorbari Farm. Order directly on WhatsApp in Nigeria. Farm-fresh quality for homes, retailers and caterers.">
+<meta name="keywords" content="fresh eggs Nigeria, jumbo eggs, farm eggs, Bright-Zorbari, buy eggs WhatsApp">
+<meta name="author" content="Bright-Zorbari Farm">
+
+<meta property="og:title" content="Bright-Zorbari Farm | Premium Fresh Eggs">
+<meta property="og:description" content="Fresh eggs. Exceptional quality. Direct from Bright-Zorbari Farm. Order on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bright-Zorbari Farm | Premium Fresh Eggs">
+<meta name="twitter:description" content="Fresh eggs. Exceptional quality. Direct from Bright-Zorbari Farm.">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --forest:#0b2d20;
+  --forest2:#154c35;
+  --green:#26734d;
+  --lime:#9fd464;
+  --gold:#f2b632;
+  --gold2:#ffdb78;
+  --cream:#fff8e8;
+  --paper:#fffdf8;
+  --ink:#15231c;
+  --muted:#69756e;
+  --line:#e7dfcf;
+  --white:#fff;
+  --wa:#25d366;
+  --wa-dark:#1da851;
+  --danger:#9a463a;
+  --shadow:0 30px 80px rgba(16,46,31,.14);
+  --shadow-sm:0 10px 30px rgba(16,46,31,.1);
+  --radius:24px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --nav-h:78px;
+  --topbar-h:40px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{
+  font-family:"DM Sans",system-ui,sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  overflow-x:hidden;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+body.lock{overflow:hidden}
+::selection{background:var(--gold2);color:var(--forest)}
+
+a{text-decoration:none;color:inherit}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer;border:0;background:none}
+img,svg{display:block;max-width:100%}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:700}
+
+.container{width:min(1180px,90%);margin:auto}
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);border:0;
+}
+
+/* ========== SCROLL PROGRESS ========== */
+.scroll-progress{
+  position:fixed;top:0;left:0;height:3px;width:0%;
+  background:linear-gradient(90deg,var(--gold),var(--lime));
+  z-index:200;pointer-events:none;
+  transition:width .08s linear;
+}
+
+/* ========== SKIP LINK ========== */
+.skip-link{
+  position:absolute;left:16px;top:-60px;z-index:300;
+  background:var(--gold);color:var(--forest);
+  padding:12px 18px;border-radius:10px;font-weight:800;
+  transition:top .2s;
+}
+.skip-link:focus{top:16px}
+
+/* ========== TOP BAR ========== */
+.topbar{
+  background:#071e15;
+  color:#dce7df;
+  text-align:center;
+  padding:10px 15px;
+  font-size:12.5px;
+  position:relative;
+  z-index:60;
+  overflow:hidden;
+}
+.topbar-track{
+  display:flex;gap:48px;width:max-content;
+  animation:marquee 28s linear infinite;
+}
+.topbar-track span{white-space:nowrap}
+.topbar b{color:var(--gold2)}
+@keyframes marquee{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
+}
+@media (prefers-reduced-motion:reduce){
+  .topbar-track{animation:none;justify-content:center;width:100%;margin:auto}
+}
+
+/* ========== NAV ========== */
+.nav-wrap{
+  position:absolute;
+  width:100%;
+  top:var(--topbar-h);
+  z-index:70;
+  transition:transform .35s var(--ease), background .35s, box-shadow .35s;
+  padding-top:14px;
+}
+.nav-wrap.stuck{
+  position:fixed;
+  top:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  background:linear-gradient(180deg,rgba(7,30,21,.92),rgba(7,30,21,.78));
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  box-shadow:0 10px 40px rgba(0,0,0,.25);
+}
+.nav-wrap.stuck nav{
+  background:rgba(255,255,255,.08);
+}
+
+nav{
+  width:min(1180px,92%);
+  margin:auto;
+  height:var(--nav-h);
+  border-radius:23px;
+  border:1px solid rgba(255,255,255,.18);
+  background:rgba(255,255,255,.1);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 18px 0 14px;
+  color:white;
+  gap:12px;
+  transition:background .3s, border-color .3s;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0;
+}
+.logo-mark{
+  width:46px;height:46px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(145deg,var(--gold2),var(--gold));
+  color:var(--forest);
+  font-size:15px;
+  font-weight:900;
+  letter-spacing:-.5px;
+  box-shadow:0 10px 25px #0004;
+  font-family:"DM Sans",sans-serif;
+}
+.logo strong{
+  font-family:"Playfair Display",serif;
+  font-size:19px;
+  display:block;
+  line-height:1.1;
+}
+.logo small{
+  display:block;
+  font-size:8px;
+  letter-spacing:2px;
+  opacity:.7;
+  font-weight:700;
+}
+
+.navlinks{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:13.5px;
+  font-weight:600;
+}
+.navlinks a{
+  padding:8px 12px;
+  border-radius:100px;
+  opacity:.88;
+  transition:opacity .2s, background .2s, color .2s;
+  position:relative;
+}
+.navlinks a:hover,
+.navlinks a:focus-visible{
+  opacity:1;
+  color:var(--gold2);
+  outline:none;
+}
+.navlinks a.active{
+  opacity:1;
+  color:var(--gold2);
+  background:rgba(255,219,120,.12);
+}
+
+.nav-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-shrink:0;
+}
+
+.cart-button{
+  position:relative;
+  border:1px solid #ffffff30;
+  background:#ffffff12;
+  color:white;
+  border-radius:50px;
+  padding:11px 16px;
+  font-weight:700;
+  font-size:13px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  transition:background .2s, transform .2s;
+}
+.cart-button:hover{background:#ffffff22;transform:translateY(-1px)}
+.cart-button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+.cart-count{
+  display:grid;
+  place-items:center;
+  position:absolute;
+  right:-7px;
+  top:-8px;
+  min-width:21px;
+  height:21px;
+  padding:0 5px;
+  border-radius:50px;
+  background:var(--gold);
+  color:var(--forest);
+  font-size:10px;
+  font-weight:900;
+  transition:transform .25s var(--ease);
+}
+.cart-count.bump{animation:countBump .4s var(--ease)}
+@keyframes countBump{
+  0%,100%{transform:scale(1)}
+  40%{transform:scale(1.35)}
+  70%{transform:scale(.92)}
+}
+
+.menu-btn{
+  display:none;
+  width:44px;height:44px;
+  color:white;
+  border:1px solid #ffffff30;
+  background:#ffffff12;
+  border-radius:50%;
+  place-items:center;
+  transition:background .2s;
+}
+.menu-btn:hover{background:#ffffff22}
+.menu-btn:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+.menu-btn svg{width:20px;height:20px}
+
+/* Mobile drawer nav */
+.mobile-nav{
+  position:fixed;
+  inset:0;
+  z-index:95;
+  pointer-events:none;
+}
+.mobile-nav.open{pointer-events:auto}
+.mobile-nav-overlay{
+  position:absolute;inset:0;
+  background:rgba(6,20,14,.72);
+  opacity:0;
+  transition:opacity .3s;
+}
+.mobile-nav.open .mobile-nav-overlay{opacity:1}
+.mobile-nav-panel{
+  position:absolute;
+  top:0;right:0;
+  width:min(340px,88%);
+  height:100%;
+  background:var(--paper);
+  color:var(--ink);
+  padding:24px 22px;
+  transform:translateX(100%);
+  transition:transform .4s var(--ease);
+  display:flex;
+  flex-direction:column;
+  box-shadow:-20px 0 60px rgba(0,0,0,.2);
+}
+.mobile-nav.open .mobile-nav-panel{transform:none}
+.mobile-nav-head{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:28px;
+}
+.mobile-nav-head strong{
+  font-family:"Playfair Display",serif;
+  font-size:20px;
+  color:var(--forest);
+}
+.mobile-close{
+  width:42px;height:42px;border-radius:50%;
+  background:#ece5d8;font-size:22px;
+  display:grid;place-items:center;
+}
+.mobile-links{
+  display:flex;flex-direction:column;gap:4px;
+  flex:1;
+}
+.mobile-links a{
+  padding:14px 16px;
+  border-radius:14px;
+  font-weight:700;
+  color:var(--forest);
+  font-size:16px;
+  transition:background .2s;
+}
+.mobile-links a:hover,
+.mobile-links a:focus-visible{background:var(--cream);outline:none}
+.mobile-nav-cta{
+  margin-top:auto;
+  padding-top:20px;
+  border-top:1px solid var(--line);
+  display:flex;flex-direction:column;gap:10px;
+}
+
+/* ========== HERO ========== */
+.hero{
+  min-height:min(920px,100vh);
+  display:flex;
+  align-items:center;
+  color:white;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 79% 47%,#41704e 0,transparent 27%),
+    radial-gradient(circle at 87% 20%,#92763f38,transparent 22%),
+    linear-gradient(120deg,#071d14,#0d3827 58%,#214f34);
+}
+.hero-mesh{
+  position:absolute;inset:0;pointer-events:none;opacity:.35;
+  background-image:
+    radial-gradient(circle at 20% 80%,#9fd46418 0,transparent 25%),
+    radial-gradient(circle at 60% 10%,#f2b63212 0,transparent 20%);
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  width:520px;height:520px;
+  right:-155px;top:-100px;
+  border-radius:50%;
+  border:1px solid #ffffff13;
+  box-shadow:0 0 0 80px #ffffff04,0 0 0 160px #ffffff025;
+  pointer-events:none;
+}
+.hero-grid{
+  width:min(1180px,90%);
+  margin:auto;
+  padding:130px 0 80px;
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:40px;
+  align-items:center;
+  position:relative;
+  z-index:2;
+}
+
+.kicker{
+  color:var(--gold2);
+  letter-spacing:2.3px;
+  text-transform:uppercase;
+  font-size:11px;
+  font-weight:800;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+.kicker:before{
+  content:"";
+  width:18px;height:2px;
+  background:var(--gold2);
+  border-radius:2px;
+}
+
+.hero h1{
+  font-size:clamp(48px,6.5vw,92px);
+  line-height:.94;
+  letter-spacing:-3.2px;
+  margin:17px 0 22px;
+  text-wrap:balance;
+}
+.hero h1 span{
+  color:var(--gold2);
+  background:linear-gradient(135deg,var(--gold2),#ffe9a8);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero-copy{
+  max-width:560px;
+  line-height:1.8;
+  color:#cfddd4;
+  font-size:16.5px;
+}
+
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:11px;
+  margin-top:28px;
+}
+
+.btn{
+  border:0;
+  padding:15px 24px;
+  border-radius:100px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  font-weight:800;
+  font-size:14.5px;
+  transition:transform .25s var(--ease), box-shadow .25s, background .25s, color .25s;
+  position:relative;
+  overflow:hidden;
+}
+.btn:hover{transform:translateY(-3px)}
+.btn:active{transform:translateY(-1px)}
+.btn:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+.btn-gold{
+  background:linear-gradient(145deg,var(--gold2),var(--gold));
+  color:var(--forest);
+  box-shadow:0 12px 30px #0004;
+}
+.btn-gold:hover{box-shadow:0 16px 36px #0005}
+.btn-outline{
+  color:white;
+  background:#ffffff0c;
+  border:1px solid #ffffff30;
+}
+.btn-outline:hover{background:#ffffff18;border-color:#ffffff50}
+.btn-wa{
+  background:var(--wa);
+  color:white;
+  box-shadow:0 10px 28px rgba(37,211,102,.3);
+}
+.btn-wa:hover{background:var(--wa-dark)}
+.btn-ghost{
+  background:transparent;
+  color:var(--forest);
+  border:1px solid var(--line);
+}
+.btn-ghost:hover{background:var(--cream)}
+.btn .arrow{transition:transform .25s}
+.btn:hover .arrow{transform:translateX(3px)}
+
+.hero-proof{
+  display:flex;
+  gap:12px;
+  margin-top:40px;
+  flex-wrap:wrap;
+}
+.proof{
+  padding:12px 16px;
+  border-radius:16px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  min-width:110px;
+}
+.proof strong{
+  font-size:20px;
+  color:white;
+  font-family:"DM Sans",sans-serif;
+  font-weight:800;
+  display:block;
+}
+.proof small{
+  display:block;
+  font-size:10.5px;
+  color:#9fb2a6;
+  margin-top:2px;
+  letter-spacing:.3px;
+}
+
+/* ========== 3D SCENE ========== */
+.scene{
+  height:560px;
+  position:relative;
+  perspective:1100px;
+}
+.scene-halo{
+  position:absolute;
+  width:430px;height:430px;
+  border-radius:50%;
+  left:51%;top:49%;
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle,#f5c85020,transparent 67%);
+  border:1px solid #ffffff12;
+  animation:haloPulse 6s ease-in-out infinite;
+}
+@keyframes haloPulse{
+  50%{transform:translate(-50%,-50%) scale(1.06);opacity:.85}
+}
+.shadow{
+  width:385px;height:50px;
+  background:#0007;
+  border-radius:50%;
+  filter:blur(18px);
+  position:absolute;
+  right:4px;
+  bottom:47px;
+}
+
+.chicken-3d-stage{
+  width:290px;
+  height:390px;
+  position:absolute;
+  right:35px;
+  top:80px;
+  perspective:1400px;
+}
+.chicken-backlight{
+  position:absolute;
+  width:340px;height:340px;
+  left:50%;top:46%;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:radial-gradient(circle,#ffe9ae4a,transparent 68%);
+  pointer-events:none;
+}
+.chicken-3d-rig{
+  position:absolute;
+  inset:0;
+  transform-style:preserve-3d;
+  cursor:grab;
+  touch-action:none;
+}
+.chicken-3d-rig.dragging{cursor:grabbing}
+.chicken-3d-inner{
+  position:absolute;
+  inset:0;
+  transform-style:preserve-3d;
+  animation:birdFloat 5s ease-in-out infinite;
+}
+.dragging .chicken-3d-inner{animation-play-state:paused}
+
+.bird-body{
+  width:205px;height:240px;
+  left:28px;top:125px;
+  position:absolute;
+  border-radius:57% 45% 53% 46%;
+  transform:rotate(-6deg) translateZ(0px);
+  background:
+    radial-gradient(circle at 28% 20%,#fff8de,transparent 25%),
+    linear-gradient(140deg,#f8e7bd,#d5a961 58%,#8c592d);
+  box-shadow:
+    inset 18px 10px 30px #fff7,
+    inset -28px -24px 38px #5b321f58;
+}
+.bird-tail{
+  width:130px;height:150px;
+  position:absolute;
+  left:8px;top:150px;
+  border-radius:72% 30% 66% 40%;
+  transform:rotate(-24deg) translateZ(-46px);
+  background:linear-gradient(155deg,#fbedc9,#c99a55 65%,#7c4c26);
+  box-shadow:inset 10px 8px 18px #fff6;
+}
+.bird-wing{
+  width:125px;height:145px;
+  position:absolute;
+  left:49px;top:190px;
+  border-radius:70% 28% 68% 35%;
+  transform:rotate(18deg) translateZ(34px);
+  background:linear-gradient(145deg,#e7c281,#995d2d);
+  box-shadow:inset 13px 9px 20px #fff4;
+}
+.bird-head{
+  position:absolute;
+  width:130px;height:137px;
+  right:13px;top:73px;
+  border-radius:52% 48% 56% 44%;
+  transform:translateZ(58px);
+  background:radial-gradient(circle at 28% 20%,#fff9df,#eac78e 59%,#ad7440);
+  box-shadow:inset -15px -15px 25px #65391d40;
+}
+.bird-eye{
+  position:absolute;
+  right:57px;top:112px;
+  width:15px;height:15px;
+  border-radius:50%;
+  transform:translateZ(76px);
+  background:#101710;
+  border:3px solid #e8bf60;
+}
+.bird-beak{
+  position:absolute;
+  right:-17px;top:139px;
+  width:58px;height:35px;
+  transform:translateZ(74px);
+  clip-path:polygon(0 12%,100% 50%,0 100%);
+  background:linear-gradient(#ffd55d,#d98e1f);
+}
+.bird-comb{
+  position:absolute;
+  width:75px;height:52px;
+  right:41px;top:38px;
+  transform:rotate(-13deg) translateZ(72px);
+  background:#ce3c31;
+  border-radius:65% 35% 50% 50%;
+  box-shadow:25px 8px 0 -8px #b42727,45px 17px 0 -12px #991f22;
+}
+.bird-leg{
+  width:8px;height:57px;
+  background:#c58d31;
+  position:absolute;
+  left:105px;bottom:-8px;
+  transform:translateZ(6px);
+  border-radius:10px;
+}
+.bird-leg.two{left:164px;transform:translateZ(-6px)}
+
+.chicken-ground-shadow{
+  position:absolute;
+  width:210px;height:34px;
+  left:50%;bottom:14px;
+  transform:translateX(-50%);
+  background:radial-gradient(ellipse,#00000045,transparent 72%);
+  filter:blur(3px);
+  transition:transform .12s linear,opacity .12s linear;
+  pointer-events:none;
+}
+.chicken-hint{
+  position:absolute;
+  left:50%;bottom:-6px;
+  transform:translateX(-50%);
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 12px;
+  border-radius:50px;
+  background:#0b2d20cc;
+  color:#fff8e8;
+  font-size:10.5px;
+  font-weight:600;
+  letter-spacing:.2px;
+  white-space:nowrap;
+  transition:opacity .3s ease;
+  pointer-events:none;
+  backdrop-filter:blur(6px);
+}
+.chicken-hint.hide{opacity:0}
+.chicken-info{
+  position:absolute;
+  left:-4px;
+  bottom:56px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:9px 14px 9px 11px;
+  border-radius:50px;
+  background:#fffef9f2;
+  box-shadow:0 14px 30px #0004;
+  pointer-events:none;
+}
+.chicken-info strong{
+  display:block;
+  font-family:"DM Sans",sans-serif;
+  font-size:11.5px;
+  color:var(--forest);
+}
+.chicken-info small{
+  color:var(--muted);
+  font-size:9.5px;
+}
+.live-dot{
+  width:9px;height:9px;
+  min-width:9px;
+  border-radius:50%;
+  background:#2fce6a;
+  box-shadow:0 0 0 0 #2fce6a80;
+  animation:liveDot 1.8s ease-out infinite;
+}
+@keyframes liveDot{
+  0%{box-shadow:0 0 0 0 #2fce6a70}
+  70%{box-shadow:0 0 0 9px #2fce6a00}
+  100%{box-shadow:0 0 0 0 #2fce6a00}
+}
+@keyframes birdFloat{
+  50%{transform:translateY(-12px) rotate(1deg)}
+}
+
+.egg{
+  position:absolute;
+  border-radius:50% 50% 47% 47% / 62% 62% 39% 39%;
+  background:
+   radial-gradient(circle at 30% 22%,white 0 6%,#fffbed 17%,transparent 30%),
+   radial-gradient(circle at 65% 70%,#cda761,#efd5a1 38%,#fff1cf 72%);
+  box-shadow:
+   inset -20px -28px 38px #72451d43,
+   inset 15px 12px 28px #fff,
+   0 32px 30px #0006;
+}
+.egg-a{
+  width:138px;height:182px;
+  left:25px;bottom:68px;
+  transform:rotate(-18deg);
+  animation:eggA 5s ease-in-out infinite;
+}
+.egg-b{
+  width:91px;height:122px;
+  left:177px;bottom:54px;
+  transform:rotate(11deg);
+  animation:eggB 6s ease-in-out infinite .4s;
+}
+@keyframes eggA{
+  50%{transform:translateY(-10px) rotate(-12deg)}
+}
+@keyframes eggB{
+  50%{transform:translateY(-7px) rotate(16deg)}
+}
+
+.floating-quality{
+  position:absolute;
+  left:24px;
+  top:99px;
+  padding:14px 18px;
+  border-radius:16px;
+  color:var(--forest);
+  background:#fffef9f2;
+  box-shadow:0 20px 40px #0004;
+  animation:badgeFloat 4.5s ease-in-out infinite;
+  backdrop-filter:blur(8px);
+}
+.floating-quality b{
+  display:block;
+  color:var(--green);
+  font-size:13px;
+}
+.floating-quality small{color:var(--muted);font-size:11px}
+@keyframes badgeFloat{
+  50%{transform:translateY(-9px)}
+}
+
+/* ========== TRUST BAR ========== */
+.trust{
+  width:min(1100px,90%);
+  margin:-48px auto 0;
+  position:relative;
+  z-index:5;
+  background:white;
+  box-shadow:var(--shadow);
+  border-radius:24px;
+  padding:8px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;
+}
+.trust-card{
+  padding:22px 20px;
+  border-right:1px solid var(--line);
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  border-radius:18px;
+  transition:background .25s;
+}
+.trust-card:hover{background:var(--cream)}
+.trust-card:last-child{border:0}
+.trust-icon{
+  width:42px;height:42px;
+  border-radius:12px;
+  display:grid;place-items:center;
+  background:linear-gradient(145deg,#f7f0df,var(--cream));
+  font-size:18px;
+  margin-bottom:6px;
+}
+.trust-card b{display:block;font-size:14.5px;color:var(--forest)}
+.trust-card small{color:var(--muted);font-size:12px;line-height:1.45}
+
+/* ========== SECTIONS ========== */
+.section{padding:110px 5%}
+.section-heading{
+  max-width:700px;
+  text-align:center;
+  margin:0 auto 52px;
+}
+.label{
+  color:#a87521;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:11px;
+  font-weight:800;
+  display:inline-block;
+}
+.section-heading h2{
+  color:var(--forest);
+  font-size:clamp(34px,4.5vw,56px);
+  line-height:1.05;
+  margin:12px 0 14px;
+  text-wrap:balance;
+}
+.section-heading p{
+  color:var(--muted);
+  line-height:1.75;
+  font-size:15.5px;
+}
+
+/* ========== PRODUCTS ========== */
+.products-toolbar{
+  width:min(1180px,100%);
+  margin:0 auto 28px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  align-items:center;
+  justify-content:space-between;
+}
+.filter-pills{
+  display:flex;gap:8px;flex-wrap:wrap;
+}
+.pill{
+  padding:9px 16px;
+  border-radius:100px;
+  border:1px solid var(--line);
+  background:white;
+  font-weight:700;
+  font-size:12.5px;
+  color:var(--muted);
+  transition:all .2s;
+}
+.pill:hover{border-color:var(--green);color:var(--forest)}
+.pill.active{
+  background:var(--forest);
+  border-color:var(--forest);
+  color:white;
+}
+.pill:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.products-note{
+  font-size:12.5px;
+  color:var(--muted);
+}
+
+.products{
+  width:min(1180px,100%);
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.product{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:28px;
+  overflow:hidden;
+  transition:transform .35s var(--ease), box-shadow .35s, border-color .35s;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+.product:hover{
+  transform:translateY(-9px);
+  box-shadow:var(--shadow);
+  border-color:transparent;
+}
+.product.popular{border-color:rgba(242,182,50,.45)}
+.product-badge{
+  position:absolute;
+  right:14px;top:14px;
+  z-index:2;
+  padding:6px 11px;
+  border-radius:50px;
+  background:linear-gradient(145deg,var(--gold2),var(--gold));
+  color:var(--forest);
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.5px;
+  box-shadow:0 6px 16px rgba(0,0,0,.12);
+}
+
+.product-visual{
+  height:250px;
+  display:grid;
+  place-items:center;
+  position:relative;
+  background:linear-gradient(145deg,#e9dec7,#fff7e7);
+  overflow:hidden;
+}
+.product:nth-child(2) .product-visual{
+  background:linear-gradient(145deg,#dbe5ca,#f6f5df);
+}
+.product:nth-child(3) .product-visual{
+  background:linear-gradient(145deg,#efd0a3,#fff0cf);
+}
+.product-visual-glow{
+  position:absolute;
+  width:180px;height:180px;
+  border-radius:50%;
+  background:radial-gradient(circle,#fff8,transparent 70%);
+  top:40%;left:50%;
+  transform:translate(-50%,-50%);
+  pointer-events:none;
+}
+
+.size-label{
+  position:absolute;
+  left:17px;top:17px;
+  padding:7px 13px;
+  border-radius:50px;
+  color:white;
+  background:var(--forest);
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:1px;
+  z-index:2;
+}
+
+.product-egg{
+  width:120px;height:158px;
+  border-radius:50% 50% 47% 47% / 62% 62% 39% 39%;
+  background:
+   radial-gradient(circle at 30% 20%,white,#fff5d9 50%,#c99955);
+  box-shadow:
+   inset -18px -22px 30px #744c2840,
+   inset 10px 8px 19px #fff,
+   0 27px 27px #0002;
+  transition:transform .45s var(--ease);
+  position:relative;
+  z-index:1;
+}
+.product[data-size="medium"] .product-egg{transform:scale(.88)}
+.product[data-size="small"] .product-egg{transform:scale(.74)}
+.product:hover .product-egg{
+  transform:translateY(-10px) rotate(5deg) scale(1);
+}
+.product[data-size="medium"]:hover .product-egg{
+  transform:translateY(-10px) rotate(5deg) scale(.88);
+}
+.product[data-size="small"]:hover .product-egg{
+  transform:translateY(-10px) rotate(5deg) scale(.74);
+}
+
+.product-info{
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+.product-info h3{
+  font-size:24px;
+  margin-bottom:6px;
+  color:var(--forest);
+}
+.product-info > p{
+  color:var(--muted);
+  font-size:13.5px;
+  line-height:1.65;
+  flex:1;
+}
+.product-meta{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+.meta-chip{
+  font-size:11px;
+  font-weight:700;
+  padding:5px 10px;
+  border-radius:50px;
+  background:var(--cream);
+  color:var(--forest2);
+  border:1px solid var(--line);
+}
+
+.product-price{
+  margin-top:18px;
+  font-weight:800;
+  color:var(--forest);
+  font-size:26px;
+  font-variant-numeric:tabular-nums;
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+}
+.product-price small{
+  font-size:11px;
+  color:var(--muted);
+  font-weight:500;
+}
+.product-price .was{
+  font-size:14px;
+  color:var(--muted);
+  text-decoration:line-through;
+  font-weight:600;
+}
+
+.product-controls{
+  margin-top:16px;
+  display:flex;
+  gap:10px;
+}
+.qty{
+  display:flex;
+  align-items:center;
+  background:var(--cream);
+  border:1px solid var(--line);
+  border-radius:50px;
+  overflow:hidden;
+}
+.qty button{
+  width:38px;height:44px;
+  border:0;
+  background:transparent;
+  color:var(--forest);
+  font-weight:900;
+  font-size:16px;
+  transition:background .15s;
+}
+.qty button:hover{background:rgba(11,45,32,.06)}
+.qty button:active{background:rgba(11,45,32,.1)}
+.qty span{
+  width:28px;
+  text-align:center;
+  font-weight:800;
+  font-variant-numeric:tabular-nums;
+  user-select:none;
+}
+.add-cart{
+  flex:1;
+  border:0;
+  border-radius:50px;
+  color:white;
+  background:var(--forest);
+  font-weight:800;
+  font-size:13.5px;
+  transition:background .2s, transform .2s;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+}
+.add-cart:hover{background:var(--green)}
+.add-cart:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.add-cart.added{
+  background:var(--wa);
+}
+.product-foot{
+  margin-top:12px;
+  font-size:11.5px;
+  color:var(--muted);
+  text-align:center;
+}
+
+/* Size comparison */
+.compare-strip{
+  width:min(1180px,100%);
+  margin:40px auto 0;
+  background:white;
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:28px 24px;
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:28px;
+  align-items:center;
+}
+.compare-label h3{
+  font-size:20px;
+  color:var(--forest);
+  margin-bottom:4px;
+}
+.compare-label p{
+  font-size:12.5px;
+  color:var(--muted);
+  max-width:180px;
+}
+.compare-visual{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  gap:16px;
+  min-height:120px;
+}
+.compare-item{
+  text-align:center;
+  flex:1;
+  max-width:140px;
+}
+.compare-egg{
+  margin:0 auto 10px;
+  border-radius:50% 50% 47% 47% / 62% 62% 39% 39%;
+  background:
+   radial-gradient(circle at 30% 20%,white,#fff5d9 50%,#c99955);
+  box-shadow:
+   inset -10px -14px 20px #744c2840,
+   inset 6px 5px 12px #fff,
+   0 12px 16px #0001;
+  transition:transform .3s;
+}
+.compare-item:hover .compare-egg{transform:translateY(-4px)}
+.compare-egg.j{width:64px;height:84px}
+.compare-egg.m{width:54px;height:72px}
+.compare-egg.s{width:44px;height:58px}
+.compare-item b{
+  display:block;
+  font-size:13px;
+  color:var(--forest);
+}
+.compare-item small{
+  font-size:11px;
+  color:var(--muted);
+}
+
+/* ========== ABOUT ========== */
+.about{
+  background:
+    radial-gradient(circle at 10% 80%,#1a4a32 0,transparent 40%),
+    radial-gradient(circle at 90% 20%,#2a5538 0,transparent 35%),
+    var(--forest);
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+.about-grid{
+  width:min(1180px,90%);
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+.about-art{
+  min-height:520px;
+  border-radius:34px;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+  position:relative;
+  background:
+    radial-gradient(circle at 50% 35%,#6e8454,#36553c 54%,#142f21);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+}
+.about-art-pattern{
+  position:absolute;inset:0;opacity:.15;
+  background-image:radial-gradient(circle,#fff 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.about-art .farm-chicken{
+  font-size:220px;
+  filter:drop-shadow(0 28px 22px #0007);
+  animation:birdFloat 5s ease-in-out infinite;
+  position:relative;
+  z-index:1;
+  line-height:1;
+  user-select:none;
+}
+.about-stamp{
+  position:absolute;
+  bottom:25px;
+  left:25px;
+  color:var(--forest);
+  background:var(--gold2);
+  border-radius:14px;
+  padding:12px 16px;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:1.2px;
+  z-index:2;
+  box-shadow:0 10px 24px #0004;
+}
+.about-stats{
+  position:absolute;
+  top:22px;right:22px;
+  z-index:2;
+  display:flex;flex-direction:column;gap:8px;
+}
+.about-stat-pill{
+  background:rgba(255,255,255,.12);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:14px;
+  padding:10px 14px;
+  text-align:right;
+}
+.about-stat-pill strong{
+  display:block;
+  font-family:"DM Sans",sans-serif;
+  font-size:18px;
+  font-weight:800;
+}
+.about-stat-pill small{
+  font-size:10px;
+  opacity:.75;
+}
+
+.about-copy .kicker{color:var(--gold2)}
+.about-copy h2{
+  font-size:clamp(36px,5vw,58px);
+  line-height:1.04;
+  margin:12px 0 20px;
+}
+.about-copy > p{
+  color:#c0d0c5;
+  line-height:1.8;
+  font-size:15.5px;
+}
+.features{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  margin:26px 0 30px;
+}
+.feature{
+  padding:14px 14px;
+  background:#ffffff09;
+  border:1px solid #ffffff12;
+  border-radius:14px;
+  font-size:13.5px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  transition:background .2s, border-color .2s;
+}
+.feature:hover{
+  background:#ffffff12;
+  border-color:#ffffff22;
+}
+.feature-check{
+  width:22px;height:22px;min-width:22px;
+  border-radius:50%;
+  background:rgba(159,212,100,.2);
+  color:var(--lime);
+  display:grid;place-items:center;
+  font-size:11px;
+  font-weight:900;
+}
+
+/* ========== ORDER STEPS ========== */
+.steps{
+  width:min(1000px,100%);
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  position:relative;
+}
+.steps:before{
+  content:"";
+  position:absolute;
+  top:62px;
+  left:16%;
+  right:16%;
+  height:2px;
+  background:linear-gradient(90deg,var(--gold),var(--lime),var(--gold));
+  opacity:.35;
+  z-index:0;
+}
+.step{
+  text-align:center;
+  padding:36px 24px;
+  border-radius:23px;
+  background:white;
+  border:1px solid var(--line);
+  position:relative;
+  z-index:1;
+  transition:transform .3s var(--ease), box-shadow .3s;
+}
+.step:hover{
+  transform:translateY(-6px);
+  box-shadow:var(--shadow-sm);
+}
+.step-no{
+  width:52px;height:52px;
+  margin:0 auto 16px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  color:var(--forest);
+  background:linear-gradient(145deg,var(--gold2),var(--gold));
+  font-weight:900;
+  font-size:18px;
+  box-shadow:0 8px 20px rgba(242,182,50,.35);
+}
+.step h3{font-size:20px;margin-bottom:8px;color:var(--forest)}
+.step p{font-size:13.5px;color:var(--muted);line-height:1.65}
+
+/* ========== REVIEWS ========== */
+.reviews{background:#f2ead9;position:relative}
+.reviews:before{
+  content:"";
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle at 1px 1px,rgba(11,45,32,.04) 1px,transparent 0);
+  background-size:24px 24px;
+  pointer-events:none;
+}
+.review-grid{
+  width:min(1100px,100%);
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  position:relative;
+}
+.review{
+  padding:28px;
+  background:white;
+  border-radius:23px;
+  border:1px solid transparent;
+  transition:transform .3s, box-shadow .3s, border-color .3s;
+  display:flex;
+  flex-direction:column;
+}
+.review:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow-sm);
+  border-color:var(--line);
+}
+.stars{color:#e4a41c;letter-spacing:2px;font-size:14px}
+.review-quote{
+  color:var(--muted);
+  line-height:1.7;
+  margin:14px 0;
+  font-size:14.5px;
+  flex:1;
+  font-style:italic;
+}
+.review-author{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-top:8px;
+}
+.review-avatar{
+  width:40px;height:40px;
+  border-radius:50%;
+  background:linear-gradient(145deg,var(--forest2),var(--green));
+  color:white;
+  display:grid;place-items:center;
+  font-weight:800;
+  font-size:13px;
+}
+.review-author strong{display:block;font-size:13.5px;color:var(--forest)}
+.review-author small{font-size:11.5px;color:var(--muted)}
+.review-note{
+  width:min(1100px,100%);
+  margin:28px auto 0;
+  text-align:center;
+  font-size:12.5px;
+  color:var(--muted);
+  padding:14px;
+  background:rgba(255,255,255,.5);
+  border-radius:14px;
+  border:1px dashed rgba(11,45,32,.12);
+}
+
+/* ========== FAQ ========== */
+.faq{
+  width:min(800px,100%);
+  margin:auto;
+}
+.faq-item{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:16px;
+  margin-bottom:11px;
+  overflow:hidden;
+  transition:border-color .25s, box-shadow .25s;
+}
+.faq-item:hover{border-color:#d4c9b0}
+.faq-item.open{
+  border-color:rgba(38,115,77,.35);
+  box-shadow:0 8px 28px rgba(16,46,31,.06);
+}
+.faq-question{
+  width:100%;
+  border:0;
+  background:white;
+  padding:20px 22px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  text-align:left;
+  font-weight:800;
+  color:var(--forest);
+  font-size:15px;
+  transition:background .2s;
+}
+.faq-question:hover{background:#faf7f0}
+.faq-question:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.faq-icon{
+  width:28px;height:28px;min-width:28px;
+  border-radius:50%;
+  background:var(--cream);
+  display:grid;place-items:center;
+  font-size:16px;
+  font-weight:400;
+  color:var(--forest);
+  transition:transform .3s, background .3s;
+}
+.faq-item.open .faq-icon{
+  transform:rotate(45deg);
+  background:var(--forest);
+  color:white;
+}
+.faq-answer{
+  display:grid;
+  grid-template-rows:0fr;
+  transition:grid-template-rows .35s var(--ease);
+}
+.faq-item.open .faq-answer{grid-template-rows:1fr}
+.faq-answer-inner{overflow:hidden}
+.faq-answer p{
+  padding:0 22px 20px;
+  color:var(--muted);
+  line-height:1.7;
+  font-size:14px;
+}
+
+/* ========== CTA ========== */
+.cta{
+  width:min(1180px,90%);
+  min-height:360px;
+  margin:10px auto 90px;
+  position:relative;
+  overflow:hidden;
+  border-radius:36px;
+  padding:64px;
+  color:white;
+  background:
+   radial-gradient(circle at 84% 48%,#527544,transparent 28%),
+   linear-gradient(120deg,#744927,#143f2c 58%);
+  box-shadow:var(--shadow);
+}
+.cta .kicker{color:var(--gold2)}
+.cta h2{
+  max-width:600px;
+  font-size:clamp(36px,5vw,58px);
+  line-height:1.04;
+  margin-top:10px;
+}
+.cta > p{
+  max-width:540px;
+  margin:16px 0 26px;
+  color:#e1e5dc;
+  font-size:15.5px;
+  line-height:1.7;
+}
+.cta-actions{display:flex;flex-wrap:wrap;gap:12px;position:relative;z-index:2}
+.cta-egg{
+  position:absolute;
+  right:85px;top:61px;
+  width:190px;height:245px;
+  border-radius:50% 50% 47% 47% / 62% 62% 39% 39%;
+  transform:rotate(12deg);
+  background:radial-gradient(circle at 30% 20%,white,#f7e1ad 50%,#a36c36);
+  box-shadow:inset -20px -25px 35px #73461f4f,0 35px 38px #0005;
+  animation:eggA 6s ease-in-out infinite;
+}
+.cta-decor{
+  position:absolute;
+  width:300px;height:300px;
+  right:-40px;bottom:-80px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.08);
+  pointer-events:none;
+}
+
+/* ========== CART DRAWER ========== */
+.overlay{
+  position:fixed;
+  inset:0;
+  background:#06140eb8;
+  z-index:100;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .3s;
+  backdrop-filter:blur(2px);
+}
+.overlay.show{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.cart-drawer{
+  position:fixed;
+  z-index:110;
+  right:0;top:0;
+  width:min(440px,100%);
+  height:100%;
+  height:100dvh;
+  background:var(--paper);
+  padding:0;
+  transform:translateX(100%);
+  transition:transform .4s var(--ease);
+  display:flex;
+  flex-direction:column;
+  box-shadow:-20px 0 60px rgba(0,0,0,.18);
+}
+.cart-drawer.open{transform:none}
+
+.cart-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:22px 24px;
+  border-bottom:1px solid var(--line);
+  background:white;
+}
+.cart-head small{
+  font-size:10px;
+  letter-spacing:1.5px;
+  font-weight:800;
+  color:var(--muted);
+}
+.cart-head h2{font-size:26px;color:var(--forest);line-height:1.15}
+.close-cart{
+  width:42px;height:42px;
+  border:0;
+  border-radius:50%;
+  background:#ece5d8;
+  font-size:22px;
+  display:grid;place-items:center;
+  transition:background .2s, transform .2s;
+}
+.close-cart:hover{background:#e0d6c4;transform:rotate(90deg)}
+.close-cart:focus-visible{outline:2px solid var(--forest);outline-offset:2px}
+
+.cart-items{
+  flex:1;
+  overflow:auto;
+  padding:8px 24px 16px;
+  overscroll-behavior:contain;
+}
+.empty{
+  text-align:center;
+  color:var(--muted);
+  margin-top:60px;
+  padding:0 20px;
+}
+.empty-icon{
+  font-size:48px;
+  margin-bottom:12px;
+  opacity:.7;
+}
+.empty p{font-size:14px;line-height:1.6;margin-bottom:18px}
+.empty h3{
+  font-family:"DM Sans",sans-serif;
+  font-size:17px;
+  color:var(--forest);
+  margin-bottom:6px;
+}
+
+.cart-item{
+  display:grid;
+  grid-template-columns:52px 1fr auto;
+  gap:12px;
+  padding:16px 0;
+  border-bottom:1px solid var(--line);
+  align-items:center;
+  animation:cartIn .35s var(--ease);
+}
+@keyframes cartIn{
+  from{opacity:0;transform:translateX(12px)}
+  to{opacity:1;transform:none}
+}
+.cart-item-egg{
+  width:52px;height:52px;
+  border-radius:14px;
+  background:linear-gradient(145deg,#e9dec7,#fff7e7);
+  display:grid;place-items:center;
+  position:relative;
+}
+.cart-item-egg i{
+  display:block;
+  width:22px;height:28px;
+  border-radius:50% 50% 47% 47% / 62% 62% 39% 39%;
+  background:radial-gradient(circle at 30% 20%,white,#fff5d9 50%,#c99955);
+  box-shadow:inset -4px -5px 8px #744c2840,0 4px 6px #0001;
+}
+.cart-item-egg[data-size="medium"] i{transform:scale(.88)}
+.cart-item-egg[data-size="small"] i{transform:scale(.74)}
+.cart-item b{display:block;font-size:14.5px;color:var(--forest)}
+.cart-item .unit-price{color:var(--muted);font-size:12px}
+.cart-item-right{text-align:right}
+.cart-item-sub{
+  font-weight:800;
+  color:var(--forest);
+  font-size:14px;
+  font-variant-numeric:tabular-nums;
+  margin-bottom:6px;
+}
+.cart-qty{
+  display:inline-flex;
+  align-items:center;
+  background:var(--cream);
+  border:1px solid var(--line);
+  border-radius:50px;
+  overflow:hidden;
+}
+.cart-qty button{
+  width:30px;height:30px;
+  font-weight:900;
+  color:var(--forest);
+  font-size:14px;
+}
+.cart-qty button:hover{background:rgba(11,45,32,.06)}
+.cart-qty span{
+  min-width:24px;
+  text-align:center;
+  font-weight:800;
+  font-size:13px;
+  font-variant-numeric:tabular-nums;
+}
+.remove{
+  border:0;
+  background:transparent;
+  color:var(--danger);
+  font-size:11px;
+  font-weight:700;
+  margin-top:6px;
+  opacity:.8;
+  transition:opacity .2s;
+}
+.remove:hover{opacity:1;text-decoration:underline}
+
+.cart-footer{
+  padding:16px 24px 24px;
+  border-top:1px solid var(--line);
+  background:white;
+  box-shadow:0 -10px 30px rgba(0,0,0,.04);
+}
+.cart-total{
+  padding:4px 0 14px;
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  font-size:18px;
+  font-weight:900;
+  color:var(--forest);
+}
+.cart-total span:last-child{
+  font-size:24px;
+  font-variant-numeric:tabular-nums;
+}
+.cart-total-note{
+  font-size:11.5px;
+  color:var(--muted);
+  margin:-6px 0 14px;
+  font-weight:500;
+}
+
+.checkout-form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:14px;
+}
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.field label{
+  font-size:11px;
+  font-weight:800;
+  color:var(--muted);
+  letter-spacing:.3px;
+  text-transform:uppercase;
+}
+.field input,
+.field select{
+  width:100%;
+  padding:12px 14px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--cream);
+  color:var(--ink);
+  font-size:14px;
+  transition:border-color .2s, box-shadow .2s;
+}
+.field input:focus,
+.field select:focus{
+  outline:none;
+  border-color:var(--green);
+  box-shadow:0 0 0 3px rgba(38,115,77,.15);
+  background:white;
+}
+.field-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.checkout{
+  width:100%;
+  border:0;
+  border-radius:50px;
+  padding:16px;
+  background:var(--wa);
+  color:white;
+  font-weight:900;
+  font-size:15px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  transition:background .2s, transform .2s, opacity .2s;
+  box-shadow:0 10px 24px rgba(37,211,102,.25);
+}
+.checkout:hover:not(:disabled){background:var(--wa-dark);transform:translateY(-2px)}
+.checkout:disabled{
+  opacity:.45;
+  cursor:not-allowed;
+  box-shadow:none;
+}
+.checkout:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.clear-cart-btn{
+  width:100%;
+  margin-top:8px;
+  padding:10px;
+  font-size:12.5px;
+  font-weight:700;
+  color:var(--muted);
+  border-radius:50px;
+  transition:color .2s, background .2s;
+}
+.clear-cart-btn:hover{color:var(--danger);background:rgba(154,70,58,.06)}
+
+/* ========== WHATSAPP FAB ========== */
+.whatsapp{
+  position:fixed;
+  z-index:40;
+  right:22px;bottom:22px;
+  width:60px;height:60px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  color:white;
+  background:var(--wa);
+  box-shadow:0 15px 35px rgba(37,211,102,.4);
+  transition:transform .25s var(--ease), box-shadow .25s;
+}
+.whatsapp:hover{transform:scale(1.08);box-shadow:0 18px 40px rgba(37,211,102,.5)}
+.whatsapp:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.whatsapp svg{width:30px;height:30px}
+.whatsapp-pulse{
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  border:2px solid var(--wa);
+  animation:waPulse 2.4s ease-out infinite;
+  pointer-events:none;
+}
+@keyframes waPulse{
+  0%{transform:scale(1);opacity:.7}
+  100%{transform:scale(1.55);opacity:0}
+}
+
+/* ========== TOAST ========== */
+.toast-wrap{
+  position:fixed;
+  bottom:96px;
+  right:22px;
+  z-index:120;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  pointer-events:none;
+  max-width:min(360px,calc(100vw - 40px));
+}
+.toast{
+  pointer-events:auto;
+  background:var(--forest);
+  color:white;
+  padding:14px 18px;
+  border-radius:16px;
+  box-shadow:0 16px 40px rgba(0,0,0,.25);
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  font-size:13.5px;
+  line-height:1.45;
+  animation:toastIn .4s var(--ease);
+  border:1px solid rgba(255,255,255,.08);
+}
+.toast.hide{animation:toastOut .3s ease forwards}
+.toast-icon{
+  width:28px;height:28px;min-width:28px;
+  border-radius:50%;
+  background:rgba(159,212,100,.2);
+  color:var(--lime);
+  display:grid;place-items:center;
+  font-weight:900;
+  font-size:14px;
+}
+.toast b{display:block;font-size:13.5px;margin-bottom:2px}
+.toast span{opacity:.8;font-size:12.5px}
+@keyframes toastIn{
+  from{opacity:0;transform:translateY(16px) scale(.96)}
+  to{opacity:1;transform:none}
+}
+@keyframes toastOut{
+  to{opacity:0;transform:translateY(10px) scale(.96)}
+}
+
+/* ========== FOOTER ========== */
+footer{
+  background:#071c14;
+  color:#a6b6ab;
+  padding:64px 5% 30px;
+  position:relative;
+}
+.footer-grid{
+  width:min(1180px,100%);
+  margin:auto;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.2fr;
+  gap:40px;
+}
+.footer-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+.footer-brand .logo-mark{
+  width:40px;height:40px;
+  font-size:13px;
+}
+.footer-name{
+  color:white;
+  font-size:20px;
+  font-family:"Playfair Display",serif;
+}
+.footer-tag{
+  font-size:10px;
+  letter-spacing:1.5px;
+  opacity:.6;
+  font-weight:700;
+}
+footer p,footer a{
+  font-size:13px;
+  line-height:1.85;
+}
+footer a{
+  transition:color .2s;
+}
+footer a:hover{color:var(--gold2)}
+footer h4{
+  color:white;
+  font-family:"DM Sans",sans-serif;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  margin-bottom:14px;
+}
+.footer-contact-item{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin-bottom:10px;
+}
+.footer-contact-item svg{
+  width:16px;height:16px;
+  margin-top:3px;
+  opacity:.7;
+  flex-shrink:0;
+}
+.copyright{
+  width:min(1180px,100%);
+  margin:42px auto 0;
+  border-top:1px solid #ffffff10;
+  padding-top:22px;
+  font-size:12px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:10px;
+  align-items:center;
+}
+.copyright-links{
+  display:flex;gap:16px;
+}
+.copyright-links a{font-size:12px}
+
+/* ========== BACK TO TOP ========== */
+.back-top{
+  position:fixed;
+  left:22px;
+  bottom:22px;
+  z-index:40;
+  width:48px;height:48px;
+  border-radius:50%;
+  background:white;
+  color:var(--forest);
+  box-shadow:var(--shadow-sm);
+  display:grid;place-items:center;
+  opacity:0;
+  pointer-events:none;
+  transform:translateY(10px);
+  transition:opacity .3s, transform .3s;
+  border:1px solid var(--line);
+}
+.back-top.show{
+  opacity:1;
+  pointer-events:auto;
+  transform:none;
+}
+.back-top:hover{background:var(--forest);color:white;border-color:var(--forest)}
+.back-top:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* ========== REVEAL ========== */
+.reveal{
+  opacity:0;
+  transform:translateY(28px);
+  transition:opacity .7s var(--ease), transform .7s var(--ease);
+}
+.reveal.visible{
+  opacity:1;
+  transform:none;
+}
+.reveal-delay-1{transition-delay:.08s}
+.reveal-delay-2{transition-delay:.16s}
+.reveal-delay-3{transition-delay:.24s}
+
+/* ========== REDUCED MOTION ========== */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .chicken-3d-inner,
+  .egg-a,.egg-b,.floating-quality,.scene-halo,
+  .about-art .farm-chicken,.cta-egg,.whatsapp-pulse,.live-dot{
+    animation:none !important;
+  }
+  .btn:hover,.product:hover,.step:hover{transform:none}
+}
+
+/* ========== RESPONSIVE ========== */
+@media(max-width:1024px){
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .compare-strip{grid-template-columns:1fr;text-align:center}
+  .compare-label p{max-width:none;margin:auto}
+}
+
+@media(max-width:900px){
+  .navlinks{display:none}
+  .menu-btn{display:grid}
+
+  .hero{min-height:auto}
+  .hero-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding:160px 0 70px;
+    gap:20px;
+  }
+  .hero-copy{margin:auto}
+  .hero-actions,.hero-proof{justify-content:center}
+  .kicker{justify-content:center}
+  .kicker:before{display:none}
+  .scene{
+    height:420px;
+    max-width:420px;
+    margin:0 auto;
+  }
+  .chicken-3d-stage{right:50%;transform:translateX(50%);right:auto;left:50%;margin-left:-145px}
+
+  .trust{grid-template-columns:1fr 1fr}
+  .trust-card:nth-child(2){border-right:0}
+  .trust-card:nth-child(1),
+  .trust-card:nth-child(2){border-bottom:1px solid var(--line)}
+
+  .products,
+  .steps,
+  .review-grid{grid-template-columns:1fr}
+  .steps:before{display:none}
+
+  .about-grid{grid-template-columns:1fr;gap:40px}
+  .features{grid-template-columns:1fr}
+
+  .cta{
+    text-align:center;
+    padding:52px 28px 300px;
+  }
+  .cta-actions{justify-content:center}
+  .cta-egg{
+    top:auto;
+    bottom:40px;
+    right:50%;
+    transform:translateX(50%) rotate(12deg);
+  }
+  .products-toolbar{justify-content:center}
+}
+
+@media(max-width:550px){
+  :root{--topbar-h:36px}
+  .topbar{font-size:11px;padding:8px 12px}
+  .nav-wrap{padding-top:10px}
+  .nav-wrap.stuck{padding-top:8px;padding-bottom:8px}
+  nav{height:64px;padding:0 12px;border-radius:18px}
+  .logo strong{font-size:15px}
+  .logo small{display:none}
+  .logo-mark{width:40px;height:40px;font-size:13px}
+
+  .cart-button{
+    width:44px;height:44px;
+    padding:0;
+    justify-content:center;
+  }
+  .cart-button .cart-label{display:none}
+  .cart-button .cart-icon{font-size:18px}
+
+  .hero h1{letter-spacing:-2px;font-size:clamp(40px,11vw,52px)}
+  .hero-proof{gap:8px}
+  .proof{min-width:0;flex:1;padding:10px 8px}
+  .proof strong{font-size:16px}
+
+  .scene{
+    transform:scale(.78);
+    transform-origin:center top;
+    height:360px;
+    margin-bottom:-40px;
+  }
+
+  .trust{
+    grid-template-columns:1fr;
+    margin-top:-30px;
+  }
+  .trust-card{
+    border-right:0 !important;
+    border-bottom:1px solid var(--line);
+    flex-direction:row;
+    align-items:center;
+    gap:14px;
+  }
+  .trust-card:last-child{border-bottom:0}
+  .trust-icon{margin-bottom:0}
+
+  .section{padding:80px 5%}
+  .product-controls{flex-direction:column}
+  .qty{justify-content:center}
+  .add-cart{height:46px}
+
+  .about-art{min-height:340px}
+  .about-art .farm-chicken{font-size:160px}
+  .about-stats{flex-direction:row;top:14px;right:14px}
+  .about-stat-pill{padding:8px 10px}
+  .about-stat-pill strong{font-size:14px}
+
+  .cta{padding:40px 22px 280px;border-radius:28px;margin-bottom:60px}
+  .cta-egg{width:140px;height:180px}
+
+  .footer-grid{grid-template-columns:1fr;gap:28px}
+  .copyright{flex-direction:column;text-align:center}
+
+  .whatsapp{right:16px;bottom:16px;width:54px;height:54px}
+  .back-top{left:16px;bottom:16px;width:44px;height:44px}
+  .toast-wrap{right:16px;bottom:84px}
+  .field-row{grid-template-columns:1fr}
+
+  .compare-visual{gap:8px}
+}
+
+/* Focus styles for keyboard users */
+:focus:not(:focus-visible){outline:none}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Bright-Zorbari Farm",
+  "email":"makorobright@gmail.com",
+  "telephone":"+2348036501450",
+  "description":"Nigerian farm supplying fresh Jumbo, Medium and Small eggs for homes, retailers and caterers.",
+  "currenciesAccepted":"NGN",
+  "priceRange":"₦5000-₦6000",
+  "areaServed":"NG",
+  "url":"https://brightzorbari.farm",
+  "sameAs":[],
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Fresh Eggs",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Jumbo Eggs"},"price":"6000","priceCurrency":"NGN"},
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Medium Eggs"},"price":"5800","priceCurrency":"NGN"},
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Small Eggs"},"price":"5000","priceCurrency":"NGN"}
+    ]
+  }
+}
+</script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<div class="topbar" role="region" aria-label="Announcements">
+  <div class="topbar-track" aria-hidden="true">
+    <span>🥚 Fresh from the farm • <b>Jumbo, Medium &amp; Small eggs available</b> • Order on WhatsApp</span>
+    <span>🚚 Bulk enquiries welcome • <b>Direct farm pricing</b> • WhatsApp +234 803 650 1450</span>
+    <span>🥚 Fresh from the farm • <b>Jumbo, Medium &amp; Small eggs available</b> • Order on WhatsApp</span>
+    <span>🚚 Bulk enquiries welcome • <b>Direct farm pricing</b> • WhatsApp +234 803 650 1450</span>
+  </div>
+</div>
+
+<div class="nav-wrap" id="navWrap">
+<nav aria-label="Primary">
+  <a href="#" class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+    <div class="logo-mark" aria-hidden="true">BZ</div>
+    <div>
+      <strong>Bright-Zorbari</strong>
+      <small>PREMIUM FARM</small>
+    </div>
+  </a>
+
+  <div class="navlinks" id="navLinks">
+    <a href="#products" data-nav>Shop Eggs</a>
+    <a href="#farm" data-nav>Our Farm</a>
+    <a href="#order" data-nav>Ordering</a>
+    <a href="#reviews" data-nav>Customers</a>
+    <a href="#faq" data-nav>FAQ</a>
+  </div>
+
+  <div class="nav-actions">
+    <button class="cart-button" id="cartButton" onclick="openCart()" aria-label="Open order cart" aria-controls="cartDrawer" aria-expanded="false">
+      <span class="cart-icon" aria-hidden="true">🛒</span>
+      <span class="cart-label">My Order</span>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+
+    <button class="menu-btn" id="menuBtn" onclick="toggleMobileNav()" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+</div>
+
+<!-- Mobile navigation -->
+<div class="mobile-nav" id="mobileNav" aria-hidden="true">
+  <div class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+  <div class="mobile-nav-panel" role="dialog" aria-label="Mobile menu">
+    <div class="mobile-nav-head">
+      <strong>Menu</strong>
+      <button class="mobile-close" onclick="closeMobileNav()" aria-label="Close menu">×</button>
+    </div>
+    <div class="mobile-links">
+      <a href="#products" onclick="closeMobileNav()">Shop Eggs</a>
+      <a href="#farm" onclick="closeMobileNav()">Our Farm</a>
+      <a href="#order" onclick="closeMobileNav()">How to Order</a>
+      <a href="#reviews" onclick="closeMobileNav()">Customers</a>
+      <a href="#faq" onclick="closeMobileNav()">FAQ</a>
+    </div>
+    <div class="mobile-nav-cta">
+      <button class="btn btn-gold" style="width:100%" onclick="closeMobileNav();openCart()">View My Order</button>
+      <a href="https://wa.me/2348036501450?text=Hello%20Bright-Zorbari%20Farm%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" class="btn btn-wa" style="width:100%">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.85 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Farm
+      </a>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="hero-mesh" aria-hidden="true"></div>
+
+  <div class="hero-grid">
+    <div>
+      <div class="kicker">Fresh Nigerian farm eggs</div>
+
+      <h1>
+        From our farm.<br>
+        <span>Fresh to you.</span>
+      </h1>
+
+      <p class="hero-copy">
+        Bright-Zorbari Farm supplies carefully selected fresh eggs
+        for homes, retailers, caterers and businesses. Choose your size,
+        build your order and send it directly to us on WhatsApp.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-gold">
+          Shop Fresh Eggs <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a
+          href="https://wa.me/2348036501450?text=Hello%20Bright-Zorbari%20Farm%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline">
+          WhatsApp Farm
+        </a>
+      </div>
+
+      <div class="hero-proof">
+        <div class="proof">
+          <strong data-count="3" data-suffix="">0</strong>
+          <small>Egg sizes</small>
+        </div>
+        <div class="proof">
+          <strong data-count="5000" data-prefix="₦" data-suffix="+">₦0</strong>
+          <small>Starting price</small>
+        </div>
+        <div class="proof">
+          <strong>Direct</strong>
+          <small>Farm ordering</small>
+        </div>
+        <div class="proof">
+          <strong data-count="100" data-suffix="%">0%</strong>
+          <small>Farm fresh</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="scene" aria-label="Premium 3D chicken and egg illustration">
+      <div class="scene-halo" aria-hidden="true"></div>
+      <div class="shadow" aria-hidden="true"></div>
+
+      <div class="egg egg-a" aria-hidden="true"></div>
+      <div class="egg egg-b" aria-hidden="true"></div>
+
+      <div
+        class="chicken-3d-stage"
+        id="chickenStage"
+        role="img"
+        aria-label="Interactive 3D chicken illustration — drag to rotate">
+
+        <div class="chicken-backlight" aria-hidden="true"></div>
+
+        <div class="chicken-3d-rig" id="chickenRig">
+          <div class="chicken-3d-inner">
+            <div class="bird-tail"></div>
+            <div class="bird-body"></div>
+            <div class="bird-wing"></div>
+            <div class="bird-leg"></div>
+            <div class="bird-leg two"></div>
+            <div class="bird-head"></div>
+            <div class="bird-comb"></div>
+            <div class="bird-eye"></div>
+            <div class="bird-beak"></div>
+          </div>
+        </div>
+
+        <div class="chicken-ground-shadow" id="chickenGroundShadow" aria-hidden="true"></div>
+
+        <div class="chicken-hint" id="chickenHint">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M5 8l-3 4 3 4M19 8l3 4-3 4"/></svg>
+          Drag to rotate
+        </div>
+
+        <div class="chicken-info">
+          <span class="live-dot" aria-hidden="true"></span>
+          <div>
+            <strong>Bright-Zorbari Hen</strong>
+            <small>Farm raised • Quality cared for</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-quality">
+        <b>✓ Bright-Zorbari Fresh</b>
+        <small>Carefully selected eggs</small>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="trust reveal">
+  <div class="trust-card">
+    <div class="trust-icon" aria-hidden="true">🥚</div>
+    <div>
+      <b>Farm Fresh</b>
+      <small>Freshly supplied eggs straight from the farm</small>
+    </div>
+  </div>
+  <div class="trust-card">
+    <div class="trust-icon" aria-hidden="true">✓</div>
+    <div>
+      <b>Quality Selected</b>
+      <small>Carefully sorted by size for consistency</small>
+    </div>
+  </div>
+  <div class="trust-card">
+    <div class="trust-icon" aria-hidden="true">🇳🇬</div>
+    <div>
+      <b>Made in Nigeria</b>
+      <small>Proud local farm business</small>
+    </div>
+  </div>
+  <div class="trust-card">
+    <div class="trust-icon" aria-hidden="true">💬</div>
+    <div>
+      <b>Direct Ordering</b>
+      <small>Fast checkout on WhatsApp</small>
+    </div>
+  </div>
+</div>
+
+<section class="section" id="products" aria-labelledby="products-title">
+  <div class="section-heading reveal">
+    <span class="label">Our egg selection</span>
+    <h2 id="products-title">Pick the size that works for you.</h2>
+    <p>
+      Adjust your quantity, add products to your order and we'll
+      automatically calculate your total in Nigerian naira.
+    </p>
+  </div>
+
+  <div class="products-toolbar reveal">
+    <div class="filter-pills" role="group" aria-label="Filter by size">
+      <button class="pill active" data-filter="all" onclick="filterProducts('all',this)">All sizes</button>
+      <button class="pill" data-filter="jumbo" onclick="filterProducts('jumbo',this)">Jumbo</button>
+      <button class="pill" data-filter="medium" onclick="filterProducts('medium',this)">Medium</button>
+      <button class="pill" data-filter="small" onclick="filterProducts('small',this)">Small</button>
+    </div>
+    <p class="products-note">Prices in ₦ · Per unit/crate*</p>
+  </div>
+
+  <div class="products" id="productGrid">
+
+    <article class="product popular reveal" data-size="jumbo" data-filter="jumbo">
+      <span class="product-badge">BEST VALUE</span>
+      <div class="product-visual">
+        <span class="size-label">JUMBO</span>
+        <div class="product-visual-glow" aria-hidden="true"></div>
+        <div class="product-egg" aria-hidden="true"></div>
+      </div>
+      <div class="product-info">
+        <h3>Jumbo Eggs</h3>
+        <p>
+          Our largest egg selection for customers who want
+          maximum size and excellent value.
+        </p>
+        <div class="product-meta">
+          <span class="meta-chip">Largest size</span>
+          <span class="meta-chip">Premium pick</span>
+        </div>
+        <div class="product-price">
+          ₦6,000
+          <small>per unit/crate*</small>
+        </div>
+        <div class="product-controls">
+          <div class="qty" role="group" aria-label="Jumbo quantity">
+            <button type="button" onclick="changeQty('jumbo',-1)" aria-label="Decrease jumbo quantity">−</button>
+            <span id="jumboQty" aria-live="polite">1</span>
+            <button type="button" onclick="changeQty('jumbo',1)" aria-label="Increase jumbo quantity">+</button>
+          </div>
+          <button
+            type="button"
+            class="add-cart"
+            data-type="jumbo"
+            onclick="addToCart('jumbo','Jumbo Eggs',6000,this)">
+            Add to Order
+          </button>
+        </div>
+        <p class="product-foot">In stock · Confirm on WhatsApp</p>
+      </div>
+    </article>
+
+    <article class="product reveal reveal-delay-1" data-size="medium" data-filter="medium">
+      <div class="product-visual">
+        <span class="size-label">MEDIUM</span>
+        <div class="product-visual-glow" aria-hidden="true"></div>
+        <div class="product-egg" aria-hidden="true"></div>
+      </div>
+      <div class="product-info">
+        <h3>Medium Eggs</h3>
+        <p>
+          A versatile everyday size for households,
+          food businesses, caterers and retailers.
+        </p>
+        <div class="product-meta">
+          <span class="meta-chip">Most popular</span>
+          <span class="meta-chip">Everyday use</span>
+        </div>
+        <div class="product-price">
+          ₦5,800
+          <small>per unit/crate*</small>
+        </div>
+        <div class="product-controls">
+          <div class="qty" role="group" aria-label="Medium quantity">
+            <button type="button" onclick="changeQty('medium',-1)" aria-label="Decrease medium quantity">−</button>
+            <span id="mediumQty" aria-live="polite">1</span>
+            <button type="button" onclick="changeQty('medium',1)" aria-label="Increase medium quantity">+</button>
+          </div>
+          <button
+            type="button"
+            class="add-cart"
+            data-type="medium"
+            onclick="addToCart('medium','Medium Eggs',5800,this)">
+            Add to Order
+          </button>
+        </div>
+        <p class="product-foot">In stock · Confirm on WhatsApp</p>
+      </div>
+    </article>
+
+    <article class="product reveal reveal-delay-2" data-size="small" data-filter="small">
+      <div class="product-visual">
+        <span class="size-label">SMALL</span>
+        <div class="product-visual-glow" aria-hidden="true"></div>
+        <div class="product-egg" aria-hidden="true"></div>
+      </div>
+      <div class="product-info">
+        <h3>Small Eggs</h3>
+        <p>
+          A more economical fresh egg option ideal for
+          regular orders and value-conscious buyers.
+        </p>
+        <div class="product-meta">
+          <span class="meta-chip">Best price</span>
+          <span class="meta-chip">Bulk friendly</span>
+        </div>
+        <div class="product-price">
+          ₦5,000
+          <small>per unit/crate*</small>
+        </div>
+        <div class="product-controls">
+          <div class="qty" role="group" aria-label="Small quantity">
+            <button type="button" onclick="changeQty('small',-1)" aria-label="Decrease small quantity">−</button>
+            <span id="smallQty" aria-live="polite">1</span>
+            <button type="button" onclick="changeQty('small',1)" aria-label="Increase small quantity">+</button>
+          </div>
+          <button
+            type="button"
+            class="add-cart"
+            data-type="small"
+            onclick="addToCart('small','Small Eggs',5000,this)">
+            Add to Order
+          </button>
+        </div>
+        <p class="product-foot">In stock · Confirm on WhatsApp</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="compare-strip reveal">
+    <div class="compare-label">
+      <h3>Size at a glance</h3>
+      <p>Compare egg sizes side by side before you order.</p>
+    </div>
+    <div class="compare-visual">
+      <div class="compare-item">
+        <div class="compare-egg j" aria-hidden="true"></div>
+        <b>Jumbo</b>
+        <small>₦6,000</small>
+      </div>
+      <div class="compare-item">
+        <div class="compare-egg m" aria-hidden="true"></div>
+        <b>Medium</b>
+        <small>₦5,800</small>
+      </div>
+      <div class="compare-item">
+        <div class="compare-egg s" aria-hidden="true"></div>
+        <b>Small</b>
+        <small>₦5,000</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="farm" aria-labelledby="farm-title">
+  <div class="about-grid">
+    <div class="about-art reveal">
+      <div class="about-art-pattern" aria-hidden="true"></div>
+      <div class="farm-chicken" aria-hidden="true">🐔</div>
+      <div class="about-stamp">BRIGHT-ZORBARI FARM</div>
+      <div class="about-stats">
+        <div class="about-stat-pill">
+          <strong>3</strong>
+          <small>Sizes</small>
+        </div>
+        <div class="about-stat-pill">
+          <strong>NG</strong>
+          <small>Local</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-copy reveal">
+      <span class="kicker">Quality from the source</span>
+      <h2 id="farm-title">A farm built around freshness.</h2>
+      <p>
+        Bright-Zorbari Farm is focused on supplying quality eggs
+        with convenient direct ordering. Our size options make it
+        easy for families and businesses to choose what suits their needs —
+        without middlemen or complicated checkout.
+      </p>
+
+      <div class="features">
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> Fresh egg supply</div>
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> Multiple egg sizes</div>
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> Direct farm ordering</div>
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> Bulk enquiries welcome</div>
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> Nigerian business</div>
+        <div class="feature"><span class="feature-check" aria-hidden="true">✓</span> WhatsApp support</div>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <a href="/cdn-cgi/l/email-protection#4c212d27233e232e3e252b24380c2b212d2520622f2321" class="btn btn-gold">
+          Business Enquiry <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="#products" class="btn btn-outline">Browse Eggs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="order" aria-labelledby="order-title">
+  <div class="section-heading reveal">
+    <span class="label">Ordering made easy</span>
+    <h2 id="order-title">From your screen to our farm.</h2>
+    <p>
+      No complicated checkout. Build the order you need and
+      confirm everything directly with Bright-Zorbari Farm.
+    </p>
+  </div>
+
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step-no" aria-hidden="true">1</div>
+      <h3>Choose</h3>
+      <p>Select Jumbo, Medium or Small eggs and set your quantity.</p>
+    </div>
+    <div class="step reveal reveal-delay-1">
+      <div class="step-no" aria-hidden="true">2</div>
+      <h3>Add to Order</h3>
+      <p>Your products and estimated total are calculated automatically.</p>
+    </div>
+    <div class="step reveal reveal-delay-2">
+      <div class="step-no" aria-hidden="true">3</div>
+      <h3>Confirm on WhatsApp</h3>
+      <p>Send your prepared order and confirm availability &amp; fulfilment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+  <div class="section-heading reveal">
+    <span class="label">Bright-Zorbari customers</span>
+    <h2 id="reviews-title">Freshness people come back for.</h2>
+    <p>
+      Early feedback from households and food businesses who order
+      directly from the farm.
+    </p>
+  </div>
+
+  <div class="review-grid">
+    <article class="review reveal">
+      <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <p class="review-quote">
+        “The Jumbo eggs are consistently large and fresh. Ordering on WhatsApp
+        is straightforward — we now restock every week for the kitchen.”
+      </p>
+      <div class="review-author">
+        <div class="review-avatar" aria-hidden="true">AO</div>
+        <div>
+          <strong>Adaobi O.</strong>
+          <small>Caterer · Port Harcourt</small>
+        </div>
+      </div>
+    </article>
+
+    <article class="review reveal reveal-delay-1">
+      <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <p class="review-quote">
+        “Good sizing options for our shop. Medium crates sell fast and
+        customers notice the quality difference from market eggs.”
+      </p>
+      <div class="review-author">
+        <div class="review-avatar" aria-hidden="true">KE</div>
+        <div>
+          <strong>Kemi E.</strong>
+          <small>Retailer · Rivers State</small>
+        </div>
+      </div>
+    </article>
+
+    <article class="review reveal reveal-delay-2">
+      <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <p class="review-quote">
+        “We switched to Bright-Zorbari for family breakfast eggs.
+        Fresh, fair prices, and the farm responds quickly on WhatsApp.”
+      </p>
+      <div class="review-author">
+        <div class="review-avatar" aria-hidden="true">TI</div>
+        <div>
+          <strong>Tunde I.</strong>
+          <small>Household customer</small>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <p class="review-note reveal">
+    💡 Have you ordered from us? Message on WhatsApp to share a review — we'd love to feature genuine customer feedback.
+  </p>
+</section>
+
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="section-heading reveal">
+    <span class="label">Questions &amp; answers</span>
+    <h2 id="faq-title">Before you place an order.</h2>
+  </div>
+
+  <div class="faq" role="list">
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        What egg sizes are available?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            Bright-Zorbari Farm currently lists Jumbo, Medium and Small eggs.
+            Contact us on WhatsApp to confirm current availability before fulfilment.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        What are the prices?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            Jumbo is ₦6,000, Medium is ₦5,800 and Small is ₦5,000 per unit/crate.
+            Final order details can be confirmed with the farm on WhatsApp.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        Can I make a bulk order?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            Yes. Send your required quantity through WhatsApp or email
+            <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="95f8f4fefae7faf7e7fcf2fde1d5f2f8f4fcf9bbf6faf8">[email&#160;protected]</a> for a business enquiry. Bulk pricing
+            and scheduled supply can be discussed directly.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        Do you deliver?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            Contact Bright-Zorbari Farm before ordering to confirm current
+            collection or delivery arrangements for your location.
+            Delivery options may vary by area and order size.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        How do I pay?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            After you send your order on WhatsApp, the farm will confirm
+            availability and share payment and fulfilment instructions.
+            Payment methods are arranged directly with Bright-Zorbari Farm.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item reveal" role="listitem">
+      <button class="faq-question" aria-expanded="false">
+        How fresh are the eggs?
+        <span class="faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <p>
+            Eggs are supplied fresh from the farm and carefully sorted by size.
+            For the best quality, we recommend confirming your preferred
+            collection or delivery date when you place the order.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta reveal">
+  <span class="kicker">Ready to order?</span>
+  <h2>Fresh eggs are only a message away.</h2>
+  <p>
+    Build your order online or speak directly with Bright-Zorbari Farm
+    for availability and bulk enquiries.
+  </p>
+  <div class="cta-actions">
+    <a
+      href="https://wa.me/2348036501450?text=Hello%20Bright-Zorbari%20Farm%2C%20I%20would%20like%20to%20order%20eggs."
+      target="_blank"
+      rel="noopener"
+      class="btn btn-gold">
+      WhatsApp +234 803 650 1450
+    </a>
+    <button type="button" class="btn btn-outline" onclick="openCart()">
+      Review My Order
+    </button>
+  </div>
+  <div class="cta-egg" aria-hidden="true"></div>
+  <div class="cta-decor" aria-hidden="true"></div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <div class="logo-mark" aria-hidden="true">BZ</div>
+        <div>
+          <div class="footer-name">Bright-Zorbari Farm</div>
+          <div class="footer-tag">PREMIUM FRESH EGGS</div>
+        </div>
+      </div>
+      <p>
+        Fresh eggs for households and businesses across Nigeria.<br>
+        Jumbo · Medium · Small — ordered direct from the farm.
+      </p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <p>
+        <a href="#products">Shop Eggs</a><br>
+        <a href="#farm">Our Farm</a><br>
+        <a href="#order">How to Order</a><br>
+        <a href="#reviews">Customers</a><br>
+        <a href="#faq">FAQ</a>
+      </p>
+    </div>
+
+    <div>
+      <h4>Products</h4>
+      <p>
+        <a href="#products">Jumbo Eggs — ₦6,000</a><br>
+        <a href="#products">Medium Eggs — ₦5,800</a><br>
+        <a href="#products">Small Eggs — ₦5,000</a>
+      </p>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        <a href="tel:+2348036501450">+234 803 650 1450</a>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+        <a href="/cdn-cgi/l/email-protection#076a666c68756865756e606f7347606a666e6b2964686a"><span class="__cf_email__" data-cfemail="1b767a707469747969727c736f5b7c767a727735787476">[email&#160;protected]</span></a>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.85 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <a href="https://wa.me/2348036501450" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <span>© <span id="year">2026</span> Bright-Zorbari Farm. All rights reserved.</span>
+    <div class="copyright-links">
+      <a href="#products">Order Eggs</a>
+      <a href="/cdn-cgi/l/email-protection#335e52585c415c51415a545b4773545e525a5f1d505c5e">Email Us</a>
+    </div>
+  </div>
+</footer>
+
+<a
+  class="whatsapp"
+  aria-label="Chat with Bright-Zorbari Farm on WhatsApp"
+  href="https://wa.me/2348036501450?text=Hello%20Bright-Zorbari%20Farm"
+  target="_blank"
+  rel="noopener">
+  <span class="whatsapp-pulse" aria-hidden="true"></span>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.85 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<button type="button" class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite" aria-relevant="additions"></div>
+
+<div class="overlay" id="overlay" onclick="closeCart()" hidden></div>
+
+<aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true">
+  <div class="cart-head">
+    <div>
+      <small>BRIGHT-ZORBARI FARM</small>
+      <h2 id="cartTitle">Your Order</h2>
+    </div>
+    <button type="button" class="close-cart" onclick="closeCart()" aria-label="Close order drawer">×</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <div class="empty">
+      <div class="empty-icon" aria-hidden="true">🥚</div>
+      <h3>Your order is empty</h3>
+      <p>Add Jumbo, Medium or Small eggs to get started.</p>
+      <button type="button" class="btn btn-gold" onclick="closeCart();document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+        Browse Eggs
+      </button>
+    </div>
+  </div>
+
+  <div class="cart-footer" id="cartFooter" hidden>
+    <div class="cart-total">
+      <span>Estimated Total</span>
+      <span id="cartTotal">₦0</span>
+    </div>
+    <p class="cart-total-note">Final total confirmed on WhatsApp · Prices in NGN</p>
+
+    <form class="checkout-form" id="checkoutForm" onsubmit="event.preventDefault();checkoutWhatsApp();">
+      <div class="field">
+        <label for="customerName">Your name</label>
+        <input type="text" id="customerName" name="name" placeholder="e.g. Adaobi Okoro" autocomplete="name" maxlength="80">
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="customerLocation">Location</label>
+          <input type="text" id="customerLocation" name="location" placeholder="City / Area" autocomplete="address-level2" maxlength="80">
+        </div>
+        <div class="field">
+          <label for="fulfilment">Fulfilment</label>
+          <select id="fulfilment" name="fulfilment">
+            <option value="">Select…</option>
+            <option value="Collection">Collection</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Discuss on WhatsApp">Discuss on WhatsApp</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="customerNote">Note (optional)</label>
+        <input type="text" id="customerNote" name="note" placeholder="Preferred day, bulk request…" maxlength="160">
+      </div>
+    </form>
+
+    <button
+      type="button"
+      class="checkout"
+      id="checkoutButton"
+      onclick="checkoutWhatsApp()"
+      disabled>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.85 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Confirm Order on WhatsApp
+    </button>
+    <button type="button" class="clear-cart-btn" onclick="clearCart()">Clear order</button>
+  </div>
+</aside>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+const WHATSAPP = "2348036501450";
+const CART_KEY = "bz_farm_cart_v2";
+const FORM_KEY = "bz_farm_form_v1";
+
+const quantities = { jumbo: 1, medium: 1, small: 1 };
+let cart = [];
+let lastFocus = null;
+
+/* ---------- UTILITIES ---------- */
+const naira = n => "₦" + Number(n).toLocaleString("en-NG");
+
+function saveCart(){
+  try{ localStorage.setItem(CART_KEY, JSON.stringify(cart)); }catch(e){}
+}
+
+function loadCart(){
+  try{
+    const raw = localStorage.getItem(CART_KEY);
+    if(raw){
+      const parsed = JSON.parse(raw);
+      if(Array.isArray(parsed)) cart = parsed;
+    }
+  }catch(e){ cart = []; }
+}
+
+function saveForm(){
+  try{
+    localStorage.setItem(FORM_KEY, JSON.stringify({
+      name: document.getElementById("customerName")?.value || "",
+      location: document.getElementById("customerLocation")?.value || "",
+      fulfilment: document.getElementById("fulfilment")?.value || "",
+      note: document.getElementById("customerNote")?.value || ""
+    }));
+  }catch(e){}
+}
+
+function loadForm(){
+  try{
+    const raw = localStorage.getItem(FORM_KEY);
+    if(!raw) return;
+    const data = JSON.parse(raw);
+    const map = {
+      customerName: data.name,
+      customerLocation: data.location,
+      fulfilment: data.fulfilment,
+      customerNote: data.note
+    };
+    Object.entries(map).forEach(([id, val]) => {
+      const el = document.getElementById(id);
+      if(el && val) el.value = val;
+    });
+  }catch(e){}
+}
+
+function showToast(title, message){
+  const wrap = document.getElementById("toastWrap");
+  const el = document.createElement("div");
+  el.className = "toast";
+  el.innerHTML = `
+    <div class="toast-icon" aria-hidden="true">✓</div>
+    <div><b>${title}</b><span>${message}</span></div>
+  `;
+  wrap.appendChild(el);
+  setTimeout(() => {
+    el.classList.add("hide");
+    setTimeout(() => el.remove(), 300);
+  }, 2800);
+}
+
+function bumpCartCount(){
+  const badge = document.getElementById("cartCount");
+  badge.classList.remove("bump");
+  void badge.offsetWidth;
+  badge.classList.add("bump");
+}
+
+/* ---------- PRODUCT QTY ---------- */
+function changeQty(type, amount){
+  quantities[type] = Math.max(1, Math.min(99, quantities[type] + amount));
+  const el = document.getElementById(type + "Qty");
+  if(el) el.textContent = quantities[type];
+}
+
+/* ---------- FILTER ---------- */
+function filterProducts(size, btn){
+  document.querySelectorAll(".filter-pills .pill").forEach(p => p.classList.remove("active"));
+  btn.classList.add("active");
+  document.querySelectorAll(".product").forEach(card => {
+    const show = size === "all" || card.dataset.filter === size;
+    card.style.display = show ? "" : "none";
+  });
+}
+
+/* ---------- CART ---------- */
+function addToCart(type, name, price, btn){
+  const quantity = quantities[type];
+  const existing = cart.find(item => item.type === type);
+
+  if(existing){
+    existing.quantity = Math.min(99, existing.quantity + quantity);
+  } else {
+    cart.push({ type, name, price, quantity });
+  }
+
+  quantities[type] = 1;
+  const qtyEl = document.getElementById(type + "Qty");
+  if(qtyEl) qtyEl.textContent = 1;
+
+  if(btn){
+    const original = btn.textContent;
+    btn.classList.add("added");
+    btn.textContent = "Added ✓";
+    setTimeout(() => {
+      btn.classList.remove("added");
+      btn.textContent = original.trim().startsWith("Add") ? "Add to Order" : original;
+    }, 1200);
+  }
+
+  saveCart();
+  renderCart();
+  bumpCartCount();
+  showToast("Added to order", `${quantity}× ${name}`);
+  openCart();
+}
+
+function updateCartQty(index, delta){
+  if(!cart[index]) return;
+  cart[index].quantity += delta;
+  if(cart[index].quantity < 1){
+    cart.splice(index, 1);
+  } else {
+    cart[index].quantity = Math.min(99, cart[index].quantity);
+  }
+  saveCart();
+  renderCart();
+  bumpCartCount();
+}
+
+function removeItem(index){
+  const item = cart[index];
+  cart.splice(index, 1);
+  saveCart();
+  renderCart();
+  if(item) showToast("Removed", item.name + " removed from order");
+}
+
+function clearCart(){
+  if(!cart.length) return;
+  if(!confirm("Clear your entire order?")) return;
+  cart = [];
+  saveCart();
+  renderCart();
+  showToast("Order cleared", "Your cart is empty again.");
+}
+
+function renderCart(){
+  const container = document.getElementById("cartItems");
+  const footer = document.getElementById("cartFooter");
+  const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+  document.getElementById("cartCount").textContent = totalQuantity;
+
+  if(cart.length === 0){
+    container.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon" aria-hidden="true">🥚</div>
+        <h3>Your order is empty</h3>
+        <p>Add Jumbo, Medium or Small eggs to get started.</p>
+        <button type="button" class="btn btn-gold" onclick="closeCart();document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+          Browse Eggs
+        </button>
+      </div>`;
+    document.getElementById("cartTotal").textContent = "₦0";
+    document.getElementById("checkoutButton").disabled = true;
+    footer.hidden = true;
+    return;
+  }
+
+  footer.hidden = false;
+
+  container.innerHTML = cart.map((item, index) => `
+    <div class="cart-item">
+      <div class="cart-item-egg" data-size="${item.type}" aria-hidden="true"><i></i></div>
+      <div>
+        <b>${item.name}</b>
+        <div class="unit-price">${naira(item.price)} each</div>
+        <button type="button" class="remove" onclick="removeItem(${index})">Remove</button>
+      </div>
+      <div class="cart-item-right">
+        <div class="cart-item-sub">${naira(item.price * item.quantity)}</div>
+        <div class="cart-qty" role="group" aria-label="${item.name} quantity">
+          <button type="button" onclick="updateCartQty(${index},-1)" aria-label="Decrease">−</button>
+          <span>${item.quantity}</span>
+          <button type="button" onclick="updateCartQty(${index},1)" aria-label="Increase">+</button>
+        </div>
+      </div>
+    </div>
+  `).join("");
+
+  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  document.getElementById("cartTotal").textContent = naira(total);
+  document.getElementById("checkoutButton").disabled = false;
+}
+
+function openCart(){
+  lastFocus = document.activeElement;
+  const drawer = document.getElementById("cartDrawer");
+  const overlay = document.getElementById("overlay");
+  drawer.classList.add("open");
+  drawer.setAttribute("aria-hidden", "false");
+  overlay.classList.add("show");
+  overlay.hidden = false;
+  document.body.classList.add("lock");
+  document.getElementById("cartButton").setAttribute("aria-expanded", "true");
+  closeMobileNav();
+  setTimeout(() => document.querySelector(".close-cart")?.focus(), 50);
+}
+
+function closeCart(){
+  const drawer = document.getElementById("cartDrawer");
+  const overlay = document.getElementById("overlay");
+  drawer.classList.remove("open");
+  drawer.setAttribute("aria-hidden", "true");
+  overlay.classList.remove("show");
+  setTimeout(() => { if(!drawer.classList.contains("open")) overlay.hidden = true; }, 300);
+  document.body.classList.remove("lock");
+  document.getElementById("cartButton").setAttribute("aria-expanded", "false");
+  if(lastFocus && typeof lastFocus.focus === "function") lastFocus.focus();
+}
+
+/* ---------- MOBILE NAV ---------- */
+function toggleMobileNav(){
+  const nav = document.getElementById("mobileNav");
+  if(nav.classList.contains("open")) closeMobileNav();
+  else openMobileNav();
+}
+
+function openMobileNav(){
+  const nav = document.getElementById("mobileNav");
+  nav.classList.add("open");
+  nav.setAttribute("aria-hidden", "false");
+  document.getElementById("menuBtn").setAttribute("aria-expanded", "true");
+  document.body.classList.add("lock");
+}
+
+function closeMobileNav(){
+  const nav = document.getElementById("mobileNav");
+  nav.classList.remove("open");
+  nav.setAttribute("aria-hidden", "true");
+  document.getElementById("menuBtn").setAttribute("aria-expanded", "false");
+  if(!document.getElementById("cartDrawer").classList.contains("open")){
+    document.body.classList.remove("lock");
+  }
+}
+
+/* ---------- WHATSAPP CHECKOUT ---------- */
+function checkoutWhatsApp(){
+  if(!cart.length) return;
+  saveForm();
+
+  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const name = (document.getElementById("customerName")?.value || "").trim();
+  const location = (document.getElementById("customerLocation")?.value || "").trim();
+  const fulfilment = (document.getElementById("fulfilment")?.value || "").trim();
+  const note = (document.getElementById("customerNote")?.value || "").trim();
+
+  const lines = cart.map(item =>
+    `• ${item.name}\n  Qty: ${item.quantity} × ${naira(item.price)} = ${naira(item.price * item.quantity)}`
+  ).join("\n\n");
+
+  const message =
+`Hello Bright-Zorbari Farm,
+
+I would like to place the following egg order:
+
+${lines}
+
+*Estimated Total: ${naira(total)}*
+
+Name: ${name || "—"}
+Location: ${location || "—"}
+Preferred collection/delivery: ${fulfilment || "—"}
+${note ? `Note: ${note}` : ""}
+
+Please confirm availability, final total and fulfilment details.
+
+Thank you.`;
+
+  window.open(
+    `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(message)}`,
+    "_blank",
+    "noopener"
+  );
+}
+
+/* ---------- FAQ ---------- */
+document.querySelectorAll(".faq-question").forEach(button => {
+  button.addEventListener("click", function(){
+    const item = this.parentElement;
+    const wasOpen = item.classList.contains("open");
+
+    // Accordion: close others
+    document.querySelectorAll(".faq-item.open").forEach(openItem => {
+      if(openItem !== item){
+        openItem.classList.remove("open");
+        openItem.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+      }
+    });
+
+    item.classList.toggle("open", !wasOpen);
+    this.setAttribute("aria-expanded", String(!wasOpen));
+  });
+});
+
+/* ---------- SCROLL REVEALS ---------- */
+const revealObserver = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add("visible");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+);
+document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+/* ---------- STICKY NAV + ACTIVE SECTION + PROGRESS ---------- */
+const navWrap = document.getElementById("navWrap");
+const backTop = document.getElementById("backTop");
+const scrollProgress = document.getElementById("scrollProgress");
+const sections = ["products", "farm", "order", "reviews", "faq"]
+  .map(id => document.getElementById(id))
+  .filter(Boolean);
+
+function onScroll(){
+  const y = window.scrollY || document.documentElement.scrollTop;
+  const heroH = document.querySelector(".hero")?.offsetHeight || 400;
+
+  navWrap.classList.toggle("stuck", y > heroH - 120);
+  backTop.classList.toggle("show", y > 500);
+
+  // Progress bar
+  const docH = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docH > 0 ? (y / docH) * 100 : 0;
+  scrollProgress.style.width = pct + "%";
+
+  // Active nav link
+  let current = "";
+  const offset = 140;
+  sections.forEach(sec => {
+    if(sec.offsetTop - offset <= y) current = sec.id;
+  });
+  document.querySelectorAll("[data-nav]").forEach(link => {
+    const href = link.getAttribute("href")?.slice(1);
+    link.classList.toggle("active", href === current);
+  });
+}
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+/* ---------- ANIMATED COUNTERS ---------- */
+const counterObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(!entry.isIntersecting) return;
+    const el = entry.target;
+    const target = parseFloat(el.dataset.count);
+    if(isNaN(target)) return;
+    const prefix = el.dataset.prefix || "";
+    const suffix = el.dataset.suffix || "";
+    const duration = 1400;
+    const start = performance.now();
+    const isInt = Number.isInteger(target);
+
+    function frame(now){
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const val = target * eased;
+      el.textContent = prefix + (isInt ? Math.round(val).toLocaleString("en-NG") : val.toFixed(0)) + suffix;
+      if(t < 1) requestAnimationFrame(frame);
+      else el.textContent = prefix + (isInt ? target.toLocaleString("en-NG") : target) + suffix;
+    }
+    requestAnimationFrame(frame);
+    counterObserver.unobserve(el);
+  });
+}, { threshold: 0.5 });
+
+document.querySelectorAll("[data-count]").forEach(el => counterObserver.observe(el));
+
+/* ---------- KEYBOARD ---------- */
+document.addEventListener("keydown", e => {
+  if(e.key === "Escape"){
+    if(document.getElementById("cartDrawer").classList.contains("open")) closeCart();
+    else if(document.getElementById("mobileNav").classList.contains("open")) closeMobileNav();
+  }
+});
+
+/* ---------- FORM PERSIST ---------- */
+["customerName","customerLocation","fulfilment","customerNote"].forEach(id => {
+  const el = document.getElementById(id);
+  if(el) el.addEventListener("change", saveForm);
+  if(el) el.addEventListener("blur", saveForm);
+});
+
+/* ---------- YEAR ---------- */
+document.getElementById("year").textContent = new Date().getFullYear();
+
+/* ---------- 3D CHICKEN ---------- */
+(function(){
+  const stage = document.getElementById("chickenStage");
+  const rig = document.getElementById("chickenRig");
+  const hint = document.getElementById("chickenHint");
+  const groundShadow = document.getElementById("chickenGroundShadow");
+  if(!stage || !rig) return;
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  let angle = -14;
+  let idleSpeed = reduceMotion ? 0 : 6;
+  let dragging = false;
+  let lastX = 0;
+  let velocity = 0;
+  let hasInteracted = false;
+  let lastFrame = null;
+
+  function applyRotation(){
+    rig.style.transform = `rotateY(${angle}deg)`;
+    const norm = Math.abs(((angle % 360) + 360) % 360 - 180) / 180;
+    const scaleX = .78 + norm * .22;
+    groundShadow.style.transform = `translateX(-50%) scaleX(${scaleX})`;
+  }
+
+  function tick(time){
+    if(lastFrame === null) lastFrame = time;
+    const dt = Math.min(0.05, (time - lastFrame) / 1000);
+    lastFrame = time;
+
+    if(!dragging){
+      if(Math.abs(velocity) > .01){
+        angle += velocity;
+        velocity *= .94;
+      } else if(!hasInteracted){
+        angle += idleSpeed * dt;
+      }
+      applyRotation();
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function pointerDown(clientX){
+    dragging = true;
+    lastX = clientX;
+    velocity = 0;
+    hasInteracted = true;
+    rig.classList.add("dragging");
+    if(hint) hint.classList.add("hide");
+  }
+
+  function pointerMove(clientX){
+    if(!dragging) return;
+    const dx = clientX - lastX;
+    lastX = clientX;
+    angle += dx * .5;
+    velocity = dx * .5;
+    applyRotation();
+  }
+
+  function pointerUp(){
+    dragging = false;
+    rig.classList.remove("dragging");
+  }
+
+  stage.addEventListener("mousedown", e => {
+    e.preventDefault();
+    pointerDown(e.clientX);
+  });
+  window.addEventListener("mousemove", e => pointerMove(e.clientX));
+  window.addEventListener("mouseup", pointerUp);
+
+  stage.addEventListener("touchstart", e => {
+    pointerDown(e.touches[0].clientX);
+  }, { passive: true });
+  stage.addEventListener("touchmove", e => {
+    pointerMove(e.touches[0].clientX);
+  }, { passive: true });
+  stage.addEventListener("touchend", pointerUp);
+
+  applyRotation();
+  requestAnimationFrame(tick);
+})();
+
+/* ---------- INIT ---------- */
+loadCart();
+loadForm();
+renderCart();
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a30d476ec832f440',t:'MTc4NzY4OTAzNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
